@@ -37,35 +37,59 @@ h1 {
     display: flex; 
     width: 670px; 
     height: 440px;
+    margin: 100px auto;
 } 
 .vizual { 
     position:relative; 
-    flex-basis:50%; 
+    flex-basis: 50%; 
     flex-grow: 0; 
     flex-shrink:0;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    margin-left:30px;
 }
-.detaily { 
-    flex-basis:50%; 
-    flex-grow: 0; 
-    flex-shrink:0;
-}
-
-.nazev {
-    height: 20px;
-    width: 500px;
-}
-
-.bota {
-    position: absolute;
-    justify-content: center;
-  }
 
 .slogan {
+    position: absolute;
     font-size: 16px;
     font-weight: 500;
     text-align: left;
     padding-left: 200px;
+    padding-top:40px;
+    color:white;
  } 
+
+.Nike{
+    padding-left: 30px;
+}
+
+.detaily { 
+    flex-basis:50%; 
+    flex-grow: 0; 
+    flex-shrink:0;
+    margin-left:30px;
+;}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color:grey;
+}
+
+.popis {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-right: 65px;
+}
+
+.bota {
+    position: absolute;
+    top: 130px;
+    left: -80px;
+  }
 
  li:hover {
     background-color: rgb(225, 143, 20);
@@ -73,12 +97,72 @@ h1 {
  }
 
  .logo {
+    top:30px;
+    left:30px;
+    position: absolute;
     size: 30px;
     position:absolute;
   }
 
  .slogan {
+    position:absolute;
     font-size: 16px;
-    width: 500px;
+    font-weight: 500px;
+    top:20px;
+    left: -170px;
+  }
+
+  .cenovka {
+    position: absolute;
+    right: 5px;
+    bottom: 30px;
+    color:white;
+  }
+
+  .cena {
+    font-size:28px;
+    left:-30px;
+    font-weight: 500;
+  }
+
+  .zaruka {
+    font-size:12px;
+    font-weight: 400;
+    left:-30px;
+  }
+
+  .parametr {
+    text-transform: uppercase;
+  }
+
+  .tlacitko {
+    background-color: #f15f42;
+    color:white;
+    border: 25px;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+  }
+
+  .velikosti {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    margin-left:-46px;
+  }
+
+  li {
+    display:flex;
+    margin-bottom:30px;
+    padding:10px 10px 10px 10px;
+    left:-30px;
+  }
+
+  li:hover {
+    background-color: #f15f42;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform:uppercase;
   }
 
