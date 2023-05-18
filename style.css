@@ -28,7 +28,6 @@ body {
     background-color: #f5f5f5;
 }
 
-
 h1 {
     font-weight: 500;
 }
@@ -38,6 +37,9 @@ h1 {
     width: 670px; 
     height: 440px;
     margin: 100px auto;
+    box-shadow: 2px 2px 20px 2px #959595;
+    border-radius: 10px;
+
 } 
 .vizual { 
     position:relative; 
@@ -45,7 +47,7 @@ h1 {
     flex-grow: 0; 
     flex-shrink:0;
     background-image: linear-gradient(#06d7c1, #50cc49);
-    margin-left:30px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .slogan {
@@ -58,31 +60,30 @@ h1 {
     color:white;
  } 
 
-.Nike{
-    padding-left: 30px;
-}
-
 .detaily { 
     flex-basis:50%; 
     flex-grow: 0; 
     flex-shrink:0;
     margin-left:30px;
-;}
+
+}
 
 .nazev {
     font-size: 20px;
     font-weight: 500px;
     text-transform: uppercase;
+    margin-top:30px;
 }
 
 .produkt {
     color:grey;
+    margin-top: -5px;
 }
 
 .popis {
-    padding-top: 15px;
-    padding-bottom: 30px;
-    margin-right: 65px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    font-weight: normal;
 }
 
 .bota {
@@ -101,20 +102,19 @@ h1 {
     left:30px;
     position: absolute;
     size: 30px;
-    position:absolute;
   }
 
  .slogan {
     position:absolute;
     font-size: 16px;
     font-weight: 500px;
-    top:20px;
+    top: 30px;
     left: -170px;
   }
 
   .cenovka {
     position: absolute;
-    right: 5px;
+    right: 30px;
     bottom: 30px;
     color:white;
   }
@@ -122,7 +122,12 @@ h1 {
   .cena {
     font-size:28px;
     left:-30px;
+    bottom:30px;
     font-weight: 500;
+  }
+
+  .akce {
+    margin-bottom:30px;
   }
 
   .zaruka {
@@ -133,36 +138,41 @@ h1 {
 
   .parametr {
     text-transform: uppercase;
+    font-weight: normal;
   }
 
   .tlacitko {
     background-color: #f15f42;
     color:white;
-    border: 25px;
-    border-radius: 10px;
-    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 30px;
   }
 
   .velikosti {
     display: flex;
     position: relative;
-    flex-wrap: nowrap;
-    margin-left:-46px;
+    right:30px;
   }
 
   li {
     display:flex;
     margin-bottom:30px;
-    padding:10px 10px 10px 10px;
-    left:-30px;
+    padding:5px;
   }
 
   li:hover {
-    background-color: #f15f42;
+    border-radius:50%;
+    border:2px solid #f15f42;
+    background:white;
+    color:#f15f42;
+    text-align: center;
+    
   }
 
   a {
     text-decoration: none;
     text-transform:uppercase;
+
   }
 
