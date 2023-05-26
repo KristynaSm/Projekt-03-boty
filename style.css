@@ -64,7 +64,7 @@ h1 {
     flex-basis:50%; 
     flex-grow: 0; 
     flex-shrink:0;
-    margin-left:30px;
+    padding-left:30px;
 
 }
 
@@ -150,21 +150,23 @@ h1 {
     margin-bottom: 30px;
   }
 
+  ul {
+    list-style-type: none;
+  }
+
   .velikosti {
     display: flex;
-    position: relative;
-    right:30px;
+    justify-content:space-around;
+    padding: 0;
   }
 
   li {
-    display:flex;
     margin-bottom:30px;
-    padding:5px;
   }
 
   li:hover {
     border-radius:50%;
-    border:2px solid #f15f42;
+    border:1px solid #f15f42;
     background:white;
     color:#f15f42;
     text-align: center;
@@ -172,7 +174,7 @@ h1 {
   }
 
   a {
-    text-decoration: none;
+    text-decoration:none;
     text-transform:uppercase;
 
   }
